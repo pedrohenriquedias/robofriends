@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import ActionButton from './ActionButton';
+import Planet from './Planet';
 import 'tachyons';
 // import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <ActionButton planetName="Venus" />, 
+  <Planet planetName="Venus" />, 
   document.getElementById('root')
   );
 
